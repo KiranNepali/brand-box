@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 
+html {
+  scroll-snap-type: y mandatory;
+} */
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.happy-monkey {
+  font-family: "Happy Monkey", system-ui;
+}
+
+.main {
+  overflow: auto;
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+}
+
+.panel {
+  scroll-snap-align: start;
+}
